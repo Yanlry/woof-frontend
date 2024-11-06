@@ -1,7 +1,8 @@
 <template>
   <div class="login-page">
     <div class="header">
-      <h1>Woof</h1>
+      <!-- Remplace le h1 par l'image -->
+      <img src="@/assets/woof-logo.png" alt="Woof Logo" class="logo" />
       <p>Animal Matchmaking App</p>
     </div>
     <form @submit.prevent="handleLogin">
@@ -61,11 +62,16 @@ export default {
 </script>
 
 <style scoped>
+.logo {
+  width: 400px; /* Ajustez la taille selon vos besoins */
+  height: auto;
+  
+}
 .login-page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f7e9d7;
+  background-color: #efd396;
   padding: 3rem;
   max-width: 400px;
   margin: auto;
@@ -105,6 +111,7 @@ input {
   font-size: 1rem;
   box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+  
 }
 
 .login-button {
@@ -123,6 +130,7 @@ input {
 }
 
 .login-button:hover {
+  border-color: #5e8d68;
   background-color: #4c7156;
   transform: translateY(-2px);
 }
@@ -132,17 +140,19 @@ input {
   justify-content: space-around;
   width: 100%;
   margin-top: 1.5rem;
+  
 }
 
 .option-button, .guest-button{
   background-color: transparent;
   color: #5e8d68;
-  border: 1px solid #5e8d68;
+  border: 1px solid #eadec2;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   cursor: pointer;
   font-size: 0.9rem;
   transition: background-color 0.3s, color 0.3s;
+  background-color: #eadec2;
 }
 
 .option-button:hover, .guest-button:hover {
