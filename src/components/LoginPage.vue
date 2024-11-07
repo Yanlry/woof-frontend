@@ -71,7 +71,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #efd396;
+  background-color: #f6ddbe;
   padding: 3rem;
   max-width: 400px;
   margin: auto;
@@ -146,13 +146,13 @@ input {
 .option-button, .guest-button{
   background-color: transparent;
   color: #5e8d68;
-  border: 1px solid #eadec2;
+  border: 1px solid #f1f0ec;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   cursor: pointer;
   font-size: 0.9rem;
   transition: background-color 0.3s, color 0.3s;
-  background-color: #eadec2;
+  background-color: #f7f7f7;
 }
 
 .option-button:hover, .guest-button:hover {
@@ -164,3 +164,4 @@ body {
   background: #f4e4d3;
 }
 </style>
+

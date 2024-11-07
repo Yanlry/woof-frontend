@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import router from './router'; // Assure-toi que le routeur est importé
+import router from './router/index.js'; // Assure-toi que le routeur est importé
 
 const app = createApp(App);
 
